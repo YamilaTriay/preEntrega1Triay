@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid; 
+}
+
+.cardItem {
+    border: 1px solid green;
+    height: 390px;
+    width: 250px;
+    padding: 6px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardItem .cardImg {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardItem .cardImg img {
+    transform: scale(0.65);
+}
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid wheat;
+    height: 50%;
+}
+
+.cardDescription .title {
+    font-size: 21px;
+    margin: 6px 0;
+}
+
+.cardDescription .description {
+    display: none;
+}
+
+.cardDescription .cant {
+    color: #87a39a ;
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.cardDescription .precio {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+.buttons{
+    border: 1px solid black;
+    height: 20%;
+}

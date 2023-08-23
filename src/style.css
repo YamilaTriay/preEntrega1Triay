@@ -55,7 +55,7 @@ header .containerCart {
     width: 20%;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 5px;
     padding: 5px;
 }
