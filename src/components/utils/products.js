@@ -34,4 +34,15 @@ const productos = [
             price: 20000,
     },
 
+    {
+        id: 4,
+        title: "Alfombra de Yute",
+        stock: 10,
+        type: "Alfombra circular 1.20mts",
+        imageProduct: {
+            firstImage: "https://d3ugyf2ht6aenh.cloudfront.net/stores/243/765/products/ef978828-10bb-4419-aed8-160f1bd4b5e7_nube-b4474d0c8dc3d53f8e16058739855066-640-0.jpg"
+        },
+            price: 25000,
+    },
+
 ]
